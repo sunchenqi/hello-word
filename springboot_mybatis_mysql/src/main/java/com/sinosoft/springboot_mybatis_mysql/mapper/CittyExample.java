@@ -1,4 +1,4 @@
-package com.sinosoft.springboot_mybatis_mysql.model;
+package com.sinosoft.springboot_mybatis_mysql.mapper;
 
 import java.util.ArrayList;
 import java.util.List;
