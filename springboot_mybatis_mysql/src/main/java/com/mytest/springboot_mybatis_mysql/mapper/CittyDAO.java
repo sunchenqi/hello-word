@@ -1,6 +1,6 @@
-package com.sinosoft.springboot_mybatis_mysql.mapper;
+package com.mytest.springboot_mybatis_mysql.mapper;
 
-import com.sinosoft.springboot_mybatis_mysql.model.Citty;
+import com.mytest.springboot_mybatis_mysql.model.Citty;
 import org.springframework.stereotype.Repository;
 
 /**

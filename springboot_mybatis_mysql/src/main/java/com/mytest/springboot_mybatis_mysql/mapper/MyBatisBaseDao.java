@@ -1,4 +1,4 @@
-package com.sinosoft.springboot_mybatis_mysql.mapper;
+package com.mytest.springboot_mybatis_mysql.mapper;
 
 import org.apache.ibatis.annotations.Param;
 

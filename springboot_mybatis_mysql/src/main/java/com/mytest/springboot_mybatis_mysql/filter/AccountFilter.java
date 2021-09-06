@@ -1,4 +1,4 @@
-package com.sinosoft.springboot_mybatis_mysql.filter;
+package com.mytest.springboot_mybatis_mysql.filter;
 
 import org.springframework.stereotype.Component;
 

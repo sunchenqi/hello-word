@@ -1,10 +1,10 @@
-package com.sinosoft.springboot_mybatis_mysql.service.impl;
+package com.mytest.springboot_mybatis_mysql.service.impl;
 
 import com.github.pagehelper.PageHelper;
-import com.sinosoft.springboot_mybatis_mysql.mapper.CittyDAO;
-import com.sinosoft.springboot_mybatis_mysql.model.Citty;
-import com.sinosoft.springboot_mybatis_mysql.mapper.CittyExample;
-import com.sinosoft.springboot_mybatis_mysql.service.CittyService;
+import com.mytest.springboot_mybatis_mysql.mapper.CittyDAO;
+import com.mytest.springboot_mybatis_mysql.model.Citty;
+import com.mytest.springboot_mybatis_mysql.mapper.CittyExample;
+import com.mytest.springboot_mybatis_mysql.service.CittyService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

@@ -1,4 +1,4 @@
-package com.sinosoft.springboot_mybatis_mysql.service;
+package com.mytest.springboot_mybatis_mysql.service;
 
 import java.util.List;
 

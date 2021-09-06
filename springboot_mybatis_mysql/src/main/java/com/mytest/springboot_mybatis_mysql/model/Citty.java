@@ -1,4 +1,4 @@
-package com.sinosoft.springboot_mybatis_mysql.model;
+package com.mytest.springboot_mybatis_mysql.model;
 
 import java.io.Serializable;
 

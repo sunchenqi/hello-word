@@ -1,6 +1,6 @@
-package com.sinosoft.springboot_mybatis_mysql.controller;
+package com.mytest.springboot_mybatis_mysql.controller;
 
-import com.sinosoft.springboot_mybatis_mysql.service.CittyService;
+import com.mytest.springboot_mybatis_mysql.service.CittyService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
