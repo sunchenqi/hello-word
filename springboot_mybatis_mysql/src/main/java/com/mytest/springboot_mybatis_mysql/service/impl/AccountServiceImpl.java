@@ -1,5 +1,6 @@
 package com.mytest.springboot_mybatis_mysql.service.impl;
 
+import com.github.pagehelper.PageHelper;
 import com.mytest.springboot_mybatis_mysql.mapper.AccountDAO;
 import com.mytest.springboot_mybatis_mysql.mapper.AccountExample;
 import com.mytest.springboot_mybatis_mysql.model.Account;
@@ -22,5 +23,11 @@ public class AccountServiceImpl implements AccountService {
                 .andPasswordEqualTo(password);
         List<Account> accounts = accountDAO.selectByExample(example);
         return accounts.size() == 0 ? null : accounts.get(0);
+    }
+
+    @Override
+    public List<Account> findAll(Integer pagenum, Integer pagesize) {
+        PageHelper.startPage(pagenum,pagesize);
+        return accountDAO.selectByExample(null);
     }
 }

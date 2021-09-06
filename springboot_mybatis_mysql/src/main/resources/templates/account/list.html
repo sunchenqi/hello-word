@@ -1,20 +1,19 @@
-<!--
 <!DOCTYPE html>
 <html xmlns:th="http://www.thymeleaf.org">
 <head>
 <meta charset="UTF-8">
 <title>办公无纸化系统</title>
 
-&lt;!&ndash; 最新的 Bootstrap 核心 css 文件 &ndash;&gt;
-&lt;!&ndash; 在url上 使用 @标签 可以帮我们 自动加上 contextpath &ndash;&gt;
+<!-- 最新的 Bootstrap 核心 css 文件 -->
+<!-- 在url上 使用 @标签 可以帮我们 自动加上 contextpath -->
 <link rel="stylesheet" th:href="@{/css/bootstrap.min.css}">
-&lt;!&ndash; 最新的 Bootstrap 核心 JavaScript 文件 &ndash;&gt;
+<!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
 <script th:src="@{/js/common/jquery-3.4.1.min.js}" ></script>
 <script th:src="@{/js/bootstrap.min.js}" ></script>
 </head>
 <body>
 
-&lt;!&ndash;  导航栏                      开始  			 ↓ &ndash;&gt;
+<!--  导航栏                      开始  			 ↓ -->
 
 <nav class="navbar navbar-default">
 
@@ -33,7 +32,7 @@
 
 
 
-    &lt;!&ndash; Collect the nav links, forms, and other content for toggling &ndash;&gt;
+    <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
     
     
@@ -73,14 +72,14 @@
       
       
      
-     &lt;!&ndash;  未登录用户 &ndash;&gt;
+     <!--  未登录用户 -->
       <ul th:if="${session.account} ==null" class="nav navbar-nav navbar-right">
         <li><a href="/account/register">注册</a></li>
         <li><a href="/account/login">登录</a></li>
       </ul>
       
      
-       &lt;!&ndash; 已登录用户    ↓ &ndash;&gt;
+       <!-- 已登录用户    ↓ -->
       <ul th:if="${session.account} !=null" class="nav navbar-nav navbar-right">
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
@@ -96,18 +95,18 @@
         </li>
       </ul>
       
-       &lt;!&ndash; 已登录用户   ↑ &ndash;&gt;
-    </div>&lt;!&ndash; /.navbar-collapse &ndash;&gt;
+       <!-- 已登录用户   ↑ -->
+    </div><!-- /.navbar-collapse -->
     
     
     
-  </div>&lt;!&ndash; /.container-fluid &ndash;&gt;
+  </div><!-- /.container-fluid -->
 </nav>
 
 
-&lt;!&ndash;  导航栏                      结束  			↑       &ndash;&gt;
+<!--  导航栏                      结束  			↑       -->
 
-&lt;!&ndash;  列表       开始   ↓ &ndash;&gt;
+<!--  列表       开始   ↓ -->
 <table class="table table-hover">
  <tr>  
  	<th>序号</th>
@@ -153,9 +152,9 @@
   </ul>
 </nav>
 
-&lt;!&ndash;  列表       结束   ↑ &ndash;&gt;
+<!--  列表       结束   ↑ -->
 
 
 
 </body>
-</html>-->
+</html>
